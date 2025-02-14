@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeMaster - Minimalist Typing Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">TypeMaster</div>
+            <div class="stats">
+                <div class="stat-box">
+                    <div id="wpm">0</div>
+                    <label>wpm</label>
+                </div>
+                <div class="stat-box">
+                    <div id="accuracy">100</div>
+                    <label>accuracy</label>
+                </div>
+                <div class="stat-box">
+                    <div id="timer">30</div>
+                    <label>time</label>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="type-area">
+                <div class="focus-info">click here or start typing</div>
+                <div id="textDisplay" class="text-display"></div>
+            </div>
+
+            <div class="test-config">
+                <div class="mode-select">
+                    <button class="mode-btn active" data-mode="time">time</button>
+                    <button class="mode-btn" data-mode="punctuation">punctuation</button>
+                    <button class="mode-btn" data-mode="numbers">numbers</button>
+                </div>
+                <div class="time-options options-group active">
+                    <button class="time-btn active" data-time="30">30s</button>
+                    <button class="time-btn" data-time="60">60s</button>
+                    <button class="time-btn" data-time="120">120s</button>
+                </div>
+                <button id="resetBtn" class="reset-btn">↻</button>
+            </div>
+        </main>
+
+        <div id="result" class="result-overlay">
+            <div class="result-box">
+                <h2>Test Complete</h2>
+                <div class="result-stats">
+                    <div class="stat-group">
+                        <div class="stat-label">wpm</div>
+                        <div id="finalWpm" class="stat-value">0</div>
+                    </div>
+                    <div class="stat-group">
+                        <div class="stat-label">accuracy</div>
+                        <div id="finalAccuracy" class="stat-value">0</div>
+                    </div>
+                </div>
+                <div id="personalBest" class="personal-best">
+                    <div class="pb-label">personal best</div>
+                    <div class="pb-value">0 wpm</div>
+                </div>
+                <button id="retryBtn" class="retry-btn">try again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
