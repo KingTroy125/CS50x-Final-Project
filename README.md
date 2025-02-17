@@ -3,7 +3,7 @@
 
 #### Video Demo: <URL HERE>
 
-![Screenshot](https://github.com/user-attachments/assets/e9c9956b-4d90-43e4-be61-f449cfca2939)
+![365shots_so](https://github.com/user-attachments/assets/7960f20a-9a0a-4356-8388-384bc538296d)
 
 ## Description
 
