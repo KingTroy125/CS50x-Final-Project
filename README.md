@@ -1,129 +1,29 @@
-# CS50x-Final-Project
-# TypeMaster Game
+# CS50
 
-#### Video Demo: <URL HERE>
+The CS50 repository contains all the code that was written during the Harvard CS50 2023 course, excluding the final project. The code covers various topics such as programming fundamentals, data structures, algorithms, web development, databases, and more.
 
-![365shots_so](https://github.com/user-attachments/assets/7960f20a-9a0a-4356-8388-384bc538296d)
+The repository is organized into directories corresponding to each week of the course. Within each week's directory, there are subdirectories for each individual problem set, containing the code for each problem set.
 
-## Description
+The code is written in various programming languages, including C, Python, SQL, HTML, CSS, and JavaScript. Each file is well-documented and includes comments that explain the code's functionality, as well as any issues or limitations. The repository also includes a PDF file with all the notes made during the lectures, which can be downloaded from the notes folder
 
-### Introduction
+The CS50 repository is a valuable resource for anyone interested in learning computer science and programming, as it provides an extensive collection of high-quality code examples, demonstrating the concepts covered in the course. It can also be used as a reference for those looking to refresh their memory on particular topics or programming languages.
 
-The **TypeMaster Game** is a web-based typing speed and accuracy test designed to help users improve their typing skills through engaging and interactive gameplay. The game provides real-time feedback, measures words per minute (WPM), and tracks accuracy, making it a great tool for typists of all skill levels. Whether you're looking to boost your productivity or just have fun challenging yourself, TypeMaster offers an intuitive and immersive experience.
+## Structure
 
----
+The structure is a hierarchical representation of a course curriculum, where each "Week" represents a week in the course and each week contains a "Lab" programming assignment, "Practice Problems" for additional practice, and a "Problem Set" for graded assessments.
 
-## Features
+## About CS50
 
-### 🔹 Real-Time Typing Test
-The game dynamically checks user input as they type, providing immediate feedback on errors and accuracy.
+CS50 is Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience. (Two thirds of CS50 students have never taken CS before.) This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, and computer science more generally. Problem sets inspired by the arts, humanities, social sciences, and sciences. More than teach you how to program in one language, this course teaches you how to program fundamentally and how to teach yourself new languages ultimately. The course starts with a traditional but omnipresent language called C that underlies today’s newer languages, via which you’ll learn not only about functions, variables, conditionals, loops, and more, but also about how computers themselves work underneath the hood, memory and all. The course then transitions to Python, a higher-level language that you’ll understand all the more because of C. Toward term’s end, the course introduces SQL, via which you can store data in databases, along with HTML, CSS, and JavaScript, via which you can create web and mobile apps alike. Course culminates in a final project.
 
-### 🔹 Speed & Accuracy Metrics
-At the end of each session, users receive their typing speed (WPM) and accuracy percentage, helping them track their progress over time.
+## How to Take this Course
 
-### 🔹 Multiple Difficulty Levels
-Users can choose from different difficulty levels, including Beginner, Intermediate, and Advanced, which affect the complexity of the text they must type.
+Even if you are not a student at Harvard, you are welcome to “take” this course for free via this OpenCourseWare by working your way through the course’s eleven [weeks](https://cs50.harvard.edu/x/2023/weeks/) of material. If you’d like to submit the course’s problem sets and [final project](https://cs50.harvard.edu/x/2023/project/) for feedback, be sure to [create an edX account](https://courses.edx.org/register), if you haven’t already. Ask questions along the way via any of the course’s [communities](https://cs50.harvard.edu/x/2023/communities/)!
 
-### 🔹 Randomized Text Prompts
-The game generates random text passages each time a user starts a new round, ensuring that no two games are the same.
-
-### 🔹 Timer and Score Tracking
-A countdown timer challenges users to type as much as possible within a set timeframe, with scores calculated based on speed and accuracy.
-
-### 🔹 Clean and Responsive UI
-Built with HTML, CSS, and JavaScript, the game features a visually appealing and responsive design, ensuring a seamless experience on both desktop and mobile devices.
-
----
-
-## How It Works
-
-1. **Start the Game**
-   - Users begin by selecting a difficulty level and pressing the "Start" button.
-   
-2. **Typing Challenge**
-   - A randomized passage appears on the screen, and users must type it exactly as shown.
-   - Mistakes are highlighted in real-time to help users correct errors.
-   
-3. **Time Limit and Scoring**
-   - Users must type as much of the passage as possible before the timer runs out.
-   - At the end of the game, the system calculates words per minute (WPM) and accuracy percentage.
-
-4. **Results and Restart**
-   - Users can review their performance stats and restart the game for another attempt.
-
----
-
-## Technology Stack
-
-### **Frontend:**
-- **HTML**: Structures the game interface and elements.
-- **CSS**: Provides styling for a clean and visually appealing UI.
-- **JavaScript**: Handles game logic, user input validation, and score calculations.
-
-### **Additional Tools:**
-- **Local Storage**: Used to save and track user progress (optional feature).
-- **FontAwesome Icons**: Used for UI enhancements.
-- **Google Fonts**: Enhances text readability.
-
----
-
-## Project Structure
-```
-/TypeMasterGame
-│── index.html        # Main HTML file
-│── style.css         # Stylesheet for UI/UX
-│── script.js         # Main JavaScript file for game logic
-│── README.md         # Project documentation
-└── assets/           # Images, fonts, and other assets
-```
-
----
-
-## Design Choices
-
-### 🎨 **User Interface & Experience**
-The UI is designed to be minimalistic, ensuring that users can focus on typing without distractions. Colors and fonts were carefully chosen for readability and accessibility.
-
-### ⚡ **Performance Optimization**
-JavaScript is optimized to ensure real-time text validation and smooth gameplay. CSS animations are lightweight to prevent lag.
-
-### 🔒 **Security Considerations**
-Since the game does not store user data online, privacy concerns are minimal. However, for future iterations, implementing secure user authentication for saving scores could be considered.
-
----
-
-## Challenges & Future Improvements
-
-### 🔥 **Challenges Faced**
-- Implementing real-time error detection without causing input lag.
-- Optimizing the algorithm for calculating words per minute accurately.
-- Ensuring a smooth and responsive UI on different screen sizes.
-
-### 🚀 **Planned Enhancements**
-- Adding a **leaderboard** to compare scores with other users.
-- Implementing **dark mode** for a customizable user experience.
-- Introducing a **custom text mode** where users can paste their own text to practice.
-- Enhancing the game with **sound effects** for keystrokes and completion feedback.
-
----
-
-## How to Run the Project
-
-### 📥 **Installation**
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/YOUR_GITHUB_USERNAME/TypeMasterGame.git
-   ```
-2. Open the `index.html` file in any modern web browser.
-3. Start playing!
-
-### 🎮 **Playing Online**
-If deployed online, simply visit the hosted URL and start typing!
-
----
-
-## Summary
-The **TypeMaster Game** is a fun and interactive typing test that helps users improve their typing skills. With real-time feedback, dynamic text prompts, and performance tracking, it provides an engaging experience for users of all levels. Built with **HTML, CSS, and JavaScript**, it showcases core web development skills and has the potential for future enhancements like leaderboards and user accounts. Whether you're practicing for work, school, or personal improvement, TypeMaster is the perfect way to sharpen your typing abilities.
-
-Let the typing begin! ⌨️🔥
-
+* If interested in a [verified certificate](https://www.edx.org/verified-certificate) from [edX](https://www.edx.org/), enroll at [cs50.edx.org](https://cs50.edx.org) instead.
+* If interested in a [professional certificate](https://www.edx.org/professional-certificate) from [edX](https://www.edx.org/)
+  * in web development, enroll at [cs50.edx.org/programs/web](https://cs50.edx.org/programs/web) instead.
+  * in artificial intelligence, enroll at [cs50.edx.org/programs/ai](https://cs50.edx.org/programs/ai) instead.
+  * in game development, enroll at [cs50.edx.org/programs/games](cs50.edx.org/programs/games) instead.
+* If interested in [transfer credit and accreditation](https://extension.harvard.edu/for-students/student-policies-conduct/transfer-credits-accreditation/) from [Harvard Extension School](https://www.extension.harvard.edu/), register at [web.dce.harvard.edu/extension/csci/e/50](https://web.dce.harvard.edu/extension/csci/e/50) instead.
+* If interested in [transfer credit and accreditation](https://summer.harvard.edu/academic-opportunities-support/policies-and-regulations/academic-policies/transfer-credit-accreditation/) from [Harvard Summer School](https://www.summer.harvard.edu/), register at [web.dce.harvard.edu/summer/csci/s/50](https://web.dce.harvard.edu/summer/csci/s/50) instead.
